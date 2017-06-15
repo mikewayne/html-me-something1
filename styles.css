@@ -1,0 +1,54 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 370px;
+  width: 70%;
+  border: .1rem solid blue;
+  align-content: center;
+}
+
+p {
+  font-family: Verdana;
+  font-weight: italic bolder;
+  font-size: 19px;
+}
+
+#heading {
+  text-align: center;
+  text-shadow: .1rem .1rem #00ff55;
+  border: red;
+  font-family: Verdana;
+  font-size: 45px;
+  font-style: italic;
+  background-color: #e6b800;
+}
+
+#sub-heading {
+  text-align: center;
+  text-shadow: .1rem .1rem green;
+  font-family: Impact;
+  font-style: oblique;
+  background-color: #5c00e6;
+}
+
+/* remove default underline */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+footer {
+  text-align: center;
+  font-family: Courier;
+  font-size: 14px;
+  background-color: grey;
+}
